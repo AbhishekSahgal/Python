@@ -167,3 +167,89 @@
 
 # Original list: [1,2,3,4]
 # Reversed list: [4,3,2,1] 
+
+# list = [1,2,3,4]
+
+# for i in range(len(list)-1,-1,-1):
+#     print(list[i])
+
+
+
+# Type 4 — Dictionary Logic
+
+# Question 10
+# Create a dictionary storing student marks.
+# Example:
+
+# {
+#  "math": 80,
+#  "science": 70,
+#  "english": 85
+# }
+
+# Find the subject with the highest marks.
+
+# details = {
+#     "math" : 80,
+#     "science" : 70,
+#     "english" : 85,
+# }
+
+# highest_marks = 0
+
+# for i in details:
+#     if details[i] > highest_marks:
+#         highest_marks = details[i]
+
+# print("highest marks: ", highest_marks)
+
+
+# Print only the subjects where marks are greater than 75.
+
+
+# details = {
+#     "math" : 80,
+#     "science" : 60,
+#     "english" : 85,
+# }
+
+# max = {}
+
+# for i in details:
+#     if details[i] > 75:
+#         max[i] = details[i]
+
+# for j in max.keys():
+#     print(j)
+
+
+# Question 12
+
+# Count how many subjects exist in the dictionary.
+
+# Solution 
+
+# details = {
+#     "math" : 80,
+#     "science" : 60,
+#     "english" : 85,
+# }
+
+# count = 0
+
+# for i in details.keys():
+#     count = count + 1
+
+# print(count)/
+
+
+# Question 13
+
+# Take 5 numbers from the user and store them in a list.
+
+# Print:
+# Largest number
+# Smallest number
+
+# Solution
+

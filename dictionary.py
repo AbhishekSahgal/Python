@@ -72,11 +72,17 @@
 # I study at ___
 # My skills are ___
 
+name = input("Enter your name: ")
+college = input("Enter your college: ")
+cource = input("Enter your cource: ")
+skills = input("Enter your skills: ")
+
+
 mydetails = {
-    'name' : "Abhishek Sahgal",
-    'college' : 'REC Ambedkar nagar',
-    'cource' : "BTech",
-    'skills' : "coding"
+    'name' : name,
+    'college' : college,
+    'cource' : cource,
+    'skills' : skills
 }
 
 print("My name is",mydetails['name'])

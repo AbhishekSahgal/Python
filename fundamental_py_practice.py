@@ -253,3 +253,49 @@
 
 # Solution
 
+# nums = []
+
+# for i in range(5):
+#     store = int(input("Enter five numbers: "))
+#     nums.append(store)
+
+# largest = nums[0]
+# smallest = nums[0]
+
+# for j in range(5):
+#     if nums[j] > largest:
+#         largest = nums[j]
+#     if nums[j] < smallest:
+#         smallest = nums[j]
+
+# print(largest)
+# print(smallest)
+
+
+# Question 14
+
+# Create a list and calculate:
+# Total
+# Average
+
+# numbers = [10,20, 30, 15, 45]
+
+# total = 0
+# average = 0
+
+# for i in numbers:
+#     total = total + i
+
+# average = total / len(numbers)
+
+# print(total)
+# print(average)
+
+# Question 15
+
+# Remove duplicate numbers from a list.
+# Example:
+# Input: [1,2,2,3,4,4,5]
+# Output: [1,2,3,4,5]
+
+

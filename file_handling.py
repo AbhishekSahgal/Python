@@ -112,5 +112,5 @@ count = 0
 with open("hello.txt", 'r') as file:
     for i in file:
         count = count + 1
-        file.read()
-
+        
+print(count)

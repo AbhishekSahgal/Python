@@ -35,8 +35,46 @@
 # split()
 # len()
 
-sentance = input("Enter your sentance: ")
+# sentance = input("Enter your sentance: ")
 
-words = sentance.split()
+# words = sentance.split()
 
-print(len(words))
+# print(len(words))
+
+
+# Task 2
+# Convert this sentence into uppercase words list.
+# "python makes coding easy"
+# Expected:
+# ['PYTHON','MAKES','CODING','EASY']
+
+# Solution 
+
+# text = "python makes coding easy"
+
+# words = text.upper().split()
+
+# print(words)
+
+
+# 🚀 Mini Project
+# Username Cleaner
+# User enters username:
+# "   Abhay_123   "
+# Program should:
+# remove spaces
+# convert to lowercase
+# Expected output:
+# abhay_123
+# Hint:
+# strip()
+# lower()
+
+# Solution 
+
+username = input("Enter username: ")
+
+clean = username.strip().lower()
+
+print(clean)
+

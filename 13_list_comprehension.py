@@ -22,3 +22,29 @@
 
 # Solution
 
+# numbers = [10,15,20,25,30]
+
+# output= [n for n in numbers if n % 10 == 0 ]
+
+# print(output)
+
+
+# 🚀 Mini Project
+# Word Length Analyzer
+# Input:
+# words = ["python","developer","ai","code"]
+# Create list containing length of each word.
+# Expected output:
+# [6,9,2,4]
+# Hint:
+# len()
+# list comprehension
+
+
+words = ["python","developer","ai","code"]
+
+output = [len(n) for n in words]
+
+print(output)
+
+

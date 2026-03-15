@@ -87,3 +87,19 @@
 
 # Solution
 
+class result:
+    def __init__(self, name,marks):
+        self.name = name
+        self.marks = marks
+
+    def check(self):
+        if self.marks >= 40:
+            print("Pass")
+        else:
+            print("fail")
+
+r1 = result("Abhishek", 50)
+r2 = result("Abhay", 30)
+
+r1.check()
+r2.check()
